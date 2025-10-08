@@ -9,8 +9,6 @@ const deafaultState = {
 	input: ''
 }
 
-
-
 const reducer = (state = deafaultState, action) => {
 	switch (action.type) {
 		case 'SET_INPUT':
@@ -31,8 +29,8 @@ const reducer = (state = deafaultState, action) => {
 
 		case 'CHANGE_STATUS':
 			return {
-				...state, todos: state.todos.map(e => e.id === action.payload ? 
-					{...e, done: !e.done} : {...e}
+				...state, todos: state.todos.map(e => e.id === action.payload ?
+					{ ...e, done: !e.done } : { ...e }
 				)
 			}
 
