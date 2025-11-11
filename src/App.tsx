@@ -3,7 +3,7 @@ import './App.css';
 import { InputRedux } from './components/Input';
 import { TaskList } from './components/TaskList';
 
-function App() {
+export const App: React.FC = () => {
 
 	return (
 		<div className='container'>
