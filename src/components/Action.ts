@@ -10,11 +10,11 @@ export const addTodo = (): Action => ({
 })
 
 export const removeTodo = (id: number): Action => ({
-  type: 'REMOVE_TODO',
-  payload: id,
+	type: 'REMOVE_TODO',
+	payload: id,
 })
 
 export const changeStatus = (id: number): Action => ({
-  type: 'CHANGE_STATUS',
-  payload: id,
+	type: 'CHANGE_STATUS',
+	payload: id,
 })

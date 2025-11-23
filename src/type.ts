@@ -9,7 +9,6 @@ export interface State {
 	input: string
 }
 
-
 export type Action =
 	| { type: 'SET_INPUT'; payload: string }
 	| { type: 'ADD_TODO' }

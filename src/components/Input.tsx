@@ -1,7 +1,6 @@
-import React, { ChangeEvent  } from 'react'
+import React, { ChangeEvent } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { RootState, AppDispatch } from '../store/store'
-
 
 export const InputRedux: React.FC = () => {
 	const input = useSelector((state: RootState) => state.input)

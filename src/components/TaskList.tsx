@@ -16,7 +16,6 @@ export const TaskList: React.FC = () => {
 		dispatch({ type: 'CHANGE_STATUS', payload: id })
 	}
 
-
 	return (
 		<ul className="list_todo">
 			{todos.map((todo: Todo) => (
